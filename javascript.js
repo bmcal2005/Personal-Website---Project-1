@@ -1,10 +1,11 @@
-document.getElementById('contact').addEventListener('submit', function(event) {
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-
-    if (name === "" || email === "" || message === "") {
-        alert("Please fill in all fields.");
-        event.preventDefault();
-    }
+var typed = new Typewriter(".typing", {
+    strings: [
+        "mechanical engineer",
+        "renewable energy enthusiast",
+        "gym-goer",
+        "coffee lover",
+        "chess player"
+    ],
+    autoStart: true,
+    loop: true
 });

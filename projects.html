@@ -3,33 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bhavya's projects page showcasing various personal and technical projects.">
-    <title>Projects - Bhavya's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Bhavya's Projects - A showcase of personal and technical projects">
+    <meta name="author" content="Bhavya Mamnani">
+    <title>Bhavya's Projects</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>My Projects</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="content container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <!-- Contact icons -->
+            <nav class="nav justify-content-end">
+                <a class="nav-link" href="https://www.linkedin.com/in/bhavyamamnani"><i class="bi bi-linkedin"></i></a>
+                <a class="nav-link" href="https://github.com/bhavyamamnani"><i class="bi bi-github"></i></a>
+                <a class="nav-link" href="mailto:bhavya_mamnani@berkeley.edu"><i class="bi bi-envelope-at-fill"></i></a>
+            </nav>
+        </header>
 
-    <section id="projects">
-        <h2>Personal Projects</h2>
-        <ul>
-            <li>Solar Telescope Microcomputer Application</li>
-            <li>Hydrogen Car Team Leader</li>
-            <li>Bamboo and Mycelium Wind Turbine Blades</li>
-        </ul>
-    </section>
+        <main class="align-self-center py-5 w-75 h-75">
+            <h2>My Projects</h2>
+            <!-- Project List -->
+            <section class="projects-list">
+                <div class="project-item">
+                    <h3>Solar Telescope Microcomputer Application</h3>
+                    <p>A Raspberry Pi-based application to control a solar telescope as part of a NASA-funded project. This project involved Python programming, sensor integration, and data acquisition.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Hydrogen Car Team Leader</h3>
+                    <p>Led the Hydrogen Car Team to develop an efficient fuel cell-powered vehicle for interscholastic competitions, focusing on the design and assembly of energy-efficient systems.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Bamboo and Mycelium Wind Turbine Blades</h3>
+                    <p>Explored the use of sustainable materials like bamboo and mycelium for building wind turbine blades, working closely with the UC Davis Advanced Composites Lab.</p>
+                </div>
+            </section>
+            <div class="break"></div>
+        </main>
 
-    <footer>
-        <p>&copy; 2024 Bhavya's Portfolio. All rights reserved.</p>
-    </footer>
+        <footer class="mt-auto">Thank you for exploring my projects!</footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Typewriter JS -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
