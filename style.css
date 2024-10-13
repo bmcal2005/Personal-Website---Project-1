@@ -29,15 +29,20 @@ body {
 }
 
 .img-container {
-    height: 300px;
-    width: 300px;
+    height: 400px; /* Adjust height to make it larger */
+    width: 400px;  /* Adjust width to make it larger */
     align-items: center;
+    display: flex; /* Ensure the image is centered */
+    justify-content: center; /* Center the image horizontally */
 }
 
+/* Avatar Image */
 .avatar {
-    max-width: 100%;
-    height: auto;
-    border-radius: 100px;
+    max-width: 100%; /* Ensures the image scales with the container */
+    height: auto;    /* Keeps the aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    width: 100%; /* Set width to fill the container */
+    height: 100%; /* Set height to fill the container */
 }
 
 .intro {
