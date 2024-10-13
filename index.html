@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bhavya's personal portfolio website showcasing hobbies, projects, and more.">
+    <title>Bhavya's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hi, I am Bhavya</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>Introduction</h2>
+        <p>I’m a freshman at UC Berkeley studying Mechanical Engineering. A few of my hobbies include going to the gym, playing chess, and trying out new coffee spots around town!</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Going to the gym</li>
+            <li>Playing chess</li>
+            <li>Exploring new coffee spots</li>
+        </ul>
+    </section>
+
+    <section id="images">
+        <h2>Favorites</h2>
+        <div class="gallery">
+            <img src="images/coffee1.jpg" alt="Favorite Coffee Spot">
+            <img src="images/coffee2.jpg" alt="Another Coffee Spot">
+            <img src="images/hiking1.jpg" alt="Hiking Location">
+            <img src="images/travel1.jpg" alt="Travel Location">
+            <img src="images/travel2.jpg" alt="Another Travel Location">
+        </div>
+    </section>
+
+    <footer>
+        <h3>Feel free to contact me!</h3>
+        <form id="contact" action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </footer>
+
+</body>
+</html>
