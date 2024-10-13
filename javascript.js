@@ -1,7 +1,7 @@
 var typed = new Typewriter(".typing", {
     strings: [
         "mechanical engineer",
-        "renewable energy enthusiast",
+        "crumbl lover",
         "gym-goer",
         "coffee lover",
         "chess player"
