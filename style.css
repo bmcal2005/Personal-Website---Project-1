@@ -54,3 +54,23 @@ footer {
     text-align: center;
     font-size: small;
 }
+/* Styles for the Image Gallery */
+.card {
+    border: none; /* Removes the default border from Bootstrap cards */
+}
+
+.card-img-top {
+    height: 200px; /* Set a fixed height for images to ensure uniformity */
+    object-fit: cover; /* Ensures the image covers the card area without distortion */
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background for card text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992.98px) {
+    .card-img-top {
+        height: 150px; /* Smaller height for mobile devices */
+    }
+}
